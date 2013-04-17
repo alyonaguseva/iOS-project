@@ -1,0 +1,403 @@
+Tproject
+v7
+r0
+t386766043.094833
+cCheck dependencies
+cProcessInfoPlistFile /Users/alenaguseva/Documents/project/build/Debug-iphonesimulator/project.app/Info.plist project-Info.plist
+cCompileXIB /Users/alenaguseva/Documents/project/MainWindow.xib
+cCompileXIB /Users/alenaguseva/Documents/project/projectViewController.xib
+cProcessPCH /var/folders/SV/SVCcTwtlERmenKfJPMIj3E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/project_Prefix-bmqbmcvelhodciaqpvbolrjinauj/project_Prefix.pch.gch project_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/project.build/Debug-iphonesimulator/project.build/Objects-normal/i386/main.o /Users/alenaguseva/Documents/project/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/project.build/Debug-iphonesimulator/project.build/Objects-normal/i386/projectAppDelegate.o /Users/alenaguseva/Documents/project/Classes/projectAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/project.build/Debug-iphonesimulator/project.build/Objects-normal/i386/projectViewController.o /Users/alenaguseva/Documents/project/Classes/projectViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/project.build/Debug-iphonesimulator/project.build/Objects-normal/i386/CalendarView.o /Users/alenaguseva/Documents/project/Classes/CalendarView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/project.build/Debug-iphonesimulator/project.build/Objects-normal/i386/CKCalendarView.o /Users/alenaguseva/Documents/project/Classes/CKCalendarView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/project.build/Debug-iphonesimulator/project.build/Objects-normal/i386/TableView.o /Users/alenaguseva/Documents/project/Classes/TableView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk
+c000000005157E54D0000000000000132
+t1364714829
+s306
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
+c000000004BFF3B87000000000006F150
+t1275018119
+s454992
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/AddressBook.framework/Headers/AddressBook.h
+c000000004BFF3B830000000000000424
+t1275018115
+s1060
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BFDFE39000000000027C7D0
+t1274936889
+s2607056
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.h
+c000000004BFDFDB200000000000004FE
+t1274936754
+s1278
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BFDFE7C000000000029D5D0
+t1274936956
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BFDFE6E0000000000001466
+t1274936942
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004C04586B00000000000000C4
+t1275353195
+s196
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C0470BB00000000000009CD
+t1275359419
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C0471620000000001D47210
+t1275359586
+s30700048
+
+N/Users/alenaguseva/Documents/project/Classes/CKCalendarView.h
+c00000000515D59630000000000000C65
+t1365072227
+s3173
+
+N/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m
+c00000000515D59870000000000006180
+t1365072263
+s24960
+i<CoreGraphics/CoreGraphics.h>
+i<QuartzCore/QuartzCore.h>
+i"CKCalendarView.h"
+
+N/Users/alenaguseva/Documents/project/Classes/CalendarView.h
+c00000000515D2F68000000000000010B
+t1365061480
+s267
+i<Foundation/Foundation.h>
+i"CKCalendarView.h"
+
+N/Users/alenaguseva/Documents/project/Classes/CalendarView.m
+c00000000515D5BB40000000000000124
+t1365072820
+s292
+i"CalendarView.h"
+
+N/Users/alenaguseva/Documents/project/Classes/TableView.h
+c00000000515D397F0000000000000132
+t1365064063
+s306
+i<UIKit/UIKit.h>
+i<AddressBook/AddressBook.h>
+
+N/Users/alenaguseva/Documents/project/Classes/TableView.m
+c00000000515D397F00000000000014C9
+t1365064063
+s5321
+i"TableView.h"
+
+N/Users/alenaguseva/Documents/project/Classes/projectAppDelegate.h
+c00000000515D5BD300000000000001E9
+t1365072851
+s489
+i<UIKit/UIKit.h>
+
+N/Users/alenaguseva/Documents/project/Classes/projectAppDelegate.m
+c00000000515D5BD30000000000000A95
+t1365072851
+s2709
+i"projectAppDelegate.h"
+i"projectViewController.h"
+
+N/Users/alenaguseva/Documents/project/Classes/projectViewController.h
+c00000000515D5D520000000000000187
+t1365073234
+s391
+i<UIKit/UIKit.h>
+
+N/Users/alenaguseva/Documents/project/Classes/projectViewController.m
+c00000000515D5D5200000000000006FD
+t1365073234
+s1789
+i"projectViewController.h"
+
+N/Users/alenaguseva/Documents/project/MainWindow.xib
+c00000000515D5BD30000000000004E29
+t1365072851
+s20009
+
+N/Users/alenaguseva/Documents/project/build/Debug-iphonesimulator/project.app
+t2
+s0
+
+N/Users/alenaguseva/Documents/project/build/Debug-iphonesimulator/project.app.dSYM
+t2
+s0
+
+N/Users/alenaguseva/Documents/project/build/Debug-iphonesimulator/project.app/Info.plist
+t1365073234
+s591
+
+N/Users/alenaguseva/Documents/project/build/Debug-iphonesimulator/project.app/MainWindow.nib
+t1365073236
+s1123
+
+N/Users/alenaguseva/Documents/project/build/Debug-iphonesimulator/project.app/PkgInfo
+t1365073234
+s8
+
+N/Users/alenaguseva/Documents/project/build/Debug-iphonesimulator/project.app/project
+t2
+s0
+
+N/Users/alenaguseva/Documents/project/build/Debug-iphonesimulator/project.app/projectViewController.nib
+t1365073238
+s795
+
+N/Users/alenaguseva/Documents/project/build/project.build/Debug-iphonesimulator/project.build/Objects-normal/i386/CKCalendarView.o
+t1365073242
+s136384
+
+N/Users/alenaguseva/Documents/project/build/project.build/Debug-iphonesimulator/project.build/Objects-normal/i386/CalendarView.o
+t2
+s0
+
+N/Users/alenaguseva/Documents/project/build/project.build/Debug-iphonesimulator/project.build/Objects-normal/i386/TableView.o
+t1365073243
+s40624
+
+N/Users/alenaguseva/Documents/project/build/project.build/Debug-iphonesimulator/project.build/Objects-normal/i386/main.o
+t1365073240
+s6300
+
+N/Users/alenaguseva/Documents/project/build/project.build/Debug-iphonesimulator/project.build/Objects-normal/i386/project.LinkFileList
+c00000000515D5D520000000000000306
+t1365073234
+s774
+
+N/Users/alenaguseva/Documents/project/build/project.build/Debug-iphonesimulator/project.build/Objects-normal/i386/projectAppDelegate.o
+t2
+s0
+
+N/Users/alenaguseva/Documents/project/build/project.build/Debug-iphonesimulator/project.build/Objects-normal/i386/projectViewController.o
+t2
+s0
+
+N/Users/alenaguseva/Documents/project/main.m
+c00000000515D5BD30000000000000173
+t1365072851
+s371
+i<UIKit/UIKit.h>
+
+N/Users/alenaguseva/Documents/project/projectViewController.xib
+c00000000515D5BD30000000000001A45
+t1365072851
+s6725
+
+N/Users/alenaguseva/Documents/project/project_Prefix.pch
+c00000000515D5BD300000000000000B7
+t1365072851
+s183
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/var/folders/SV/SVCcTwtlERmenKfJPMIj3E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/project_Prefix-bmqbmcvelhodciaqpvbolrjinauj/project_Prefix.pch.gch
+t1365073240
+s15232016
+
+Nproject-Info.plist
+c00000000515D5BD3000000000000038D
+t1365072851
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies386766034#386766034#0(0"0(0#1#0"8247620834010738688#0"0#
+
+CCompileC build/project.build/Debug-iphonesimulator/project.build/Objects-normal/i386/CKCalendarView.o /Users/alenaguseva/Documents/project/Classes/CKCalendarView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s386766041.692630
+e386766042.675643
+r1
+xCompileC
+xbuild/project.build/Debug-iphonesimulator/project.build/Objects-normal/i386/CKCalendarView.o
+x/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m: In function '-[CKCalendarView internalInit:]':
+o/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m:221: warning: 'CKCalendarView' may not respond to '-updateDayOfWeekLabels'
+o/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m:221: warning: (Messages without a matching method signature
+o/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m:221: warning: will be assumed to return 'id' and accept
+o/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m:221: warning: '...' as arguments.)
+o/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m:235: warning: 'CKCalendarView' may not respond to '-setDefaultStyle'
+o/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m: In function '-[CKCalendarView layoutSubviews]':
+o/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m:269: warning: 'CKCalendarView' may not respond to '-numberOfWeeksInMonthContainingDate:'
+o/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m:269: warning: assignment makes integer from pointer without a cast
+o/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m:297: warning: 'CKCalendarView' may not respond to '-firstDayOfMonthContainingDate:'
+o/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m:299: warning: 'CKCalendarView' may not respond to '-placeInWeekForDate:'
+o/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m:300: warning: 'CKCalendarView' may not respond to '-previousDay:'
+o/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m:304: warning: 'CKCalendarView' may not respond to '-firstDayOfNextMonthContainingDate:'
+o/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m:316: warning: 'CKCalendarView' may not respond to '-date:isSameDayAsDate:'
+o/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m:319: warning: 'CKCalendarView' may not respond to '-dateIsToday:'
+o/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m:326: warning: 'CKCalendarView' may not respond to '-compareByMonth:toDate:'
+o/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m:338: warning: 'CKCalendarView' may not respond to '-nextDay:'
+o/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m: In function '-[CKCalendarView setMonthShowing:]':
+o/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m:377: warning: 'CKCalendarView' may not respond to '-firstDayOfMonthContainingDate:'
+o/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m: In function '-[CKCalendarView calculateDayCellFrame:]':
+o/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m:427: warning: 'CKCalendarView' may not respond to '-numberOfDaysFromDate:toDate:'
+o/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m:427: warning: initialization makes integer from pointer without a cast
+o/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m:428: warning: 'CKCalendarView' may not respond to '-placeInWeekForDate:'
+o/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m:430: warning: 'CKCalendarView' may not respond to '-placeInWeekForDate:'
+o/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m:430: warning: initialization makes integer from pointer without a cast
+o/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m: In function '-[CKCalendarView setButtonColor:]':
+o/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m:483: warning: 'CKCalendarView' may not respond to '+imageNamed:withColor:'
+o/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m:484: warning: 'CKCalendarView' may not respond to '+imageNamed:withColor:'
+o/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m: In function '-[CKCalendarView dateIsToday:]':
+o/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m:586: warning: 'CKCalendarView' may not respond to '-date:isSameDayAsDate:'
+o/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m:586: warning: return makes integer from pointer without a cast
+lSLF07#2@69"Compile /Users/alenaguseva/Documents/project/Classes/CKCalendarView.m386766041#386766042#0(4007"/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m: In function '-[CKCalendarView internalInit:]':/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m:221: warning: 'CKCalendarView' may not respond to '-updateDayOfWeekLabels'/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m:221: warning: (Messages without a matching method signature/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m:221: warning: will be assumed to return 'id' and accept/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m:221: warning: '...' as arguments.)/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m:235: warning: 'CKCalendarView' may not respond to '-setDefaultStyle'/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m: In function '-[CKCalendarView layoutSubviews]':/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m:269: warning: 'CKCalendarView' may not respond to '-numberOfWeeksInMonthContainingDate:'/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m:269: warning: assignment makes integer from pointer without a cast/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m:297: warning: 'CKCalendarView' may not respond to '-firstDayOfMonthContainingDate:'/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m:299: warning: 'CKCalendarView' may not respond to '-placeInWeekForDate:'/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m:300: warning: 'CKCalendarView' may not respond to '-previousDay:'/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m:304: warning: 'CKCalendarView' may not respond to '-firstDayOfNextMonthContainingDate:'/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m:316: warning: 'CKCalendarView' may not respond to '-date:isSameDayAsDate:'/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m:319: warning: 'CKCalendarView' may not respond to '-dateIsToday:'/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m:326: warning: 'CKCalendarView' may not respond to '-compareByMonth:toDate:'/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m:338: warning: 'CKCalendarView' may not respond to '-nextDay:'/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m: In function '-[CKCalendarView setMonthShowing:]':/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m:377: warning: 'CKCalendarView' may not respond to '-firstDayOfMonthContainingDate:'/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m: In function '-[CKCalendarView calculateDayCellFrame:]':/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m:427: warning: 'CKCalendarView' may not respond to '-numberOfDaysFromDate:toDate:'/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m:427: warning: initialization makes integer from pointer without a cast/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m:428: warning: 'CKCalendarView' may not respond to '-placeInWeekForDate:'/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m:430: warning: 'CKCalendarView' may not respond to '-placeInWeekForDate:'/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m:430: warning: initialization makes integer from pointer without a cast/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m: In function '-[CKCalendarView setButtonColor:]':/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m:483: warning: 'CKCalendarView' may not respond to '+imageNamed:withColor:'/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m:484: warning: 'CKCalendarView' may not respond to '+imageNamed:withColor:'/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m: In function '-[CKCalendarView dateIsToday:]':/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m:586: warning: 'CKCalendarView' may not respond to '-date:isSameDayAsDate:'/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m:586: warning: return makes integer from pointer without a cast23(22@60"'CKCalendarView' may not respond to '-updateDayOfWeekLabels'386766042#110#137#0(6@61"/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m386765063#221#0#221#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)386766042#247#122#0(6@61"/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m386765063#221#0#221#0#0"0(22@54"'CKCalendarView' may not respond to '-setDefaultStyle'386766042#584#131#0(6@61"/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m386765063#235#0#235#0#26"'*' may not respond to '*'0(22@74"'CKCalendarView' may not respond to '-numberOfWeeksInMonthContainingDate:'386766042#826#151#0(6@61"/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m386765063#269#0#269#0#26"'*' may not respond to '*'0(22@52"Assignment makes integer from pointer without a cast386766042#977#129#0(6@61"/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m386765063#269#0#269#0#0"0(22@69"'CKCalendarView' may not respond to '-firstDayOfMonthContainingDate:'386766042#1106#146#0(6@61"/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m386765063#297#0#297#0#26"'*' may not respond to '*'0(22@58"'CKCalendarView' may not respond to '-placeInWeekForDate:'386766042#1252#135#0(6@61"/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m386765063#299#0#299#0#26"'*' may not respond to '*'0(22@51"'CKCalendarView' may not respond to '-previousDay:'386766042#1387#128#0(6@61"/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m386765063#300#0#300#0#26"'*' may not respond to '*'0(22@73"'CKCalendarView' may not respond to '-firstDayOfNextMonthContainingDate:'386766042#1515#150#0(6@61"/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m386765063#304#0#304#0#26"'*' may not respond to '*'0(22@60"'CKCalendarView' may not respond to '-date:isSameDayAsDate:'386766042#1665#137#0(6@61"/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m386765063#316#0#316#0#26"'*' may not respond to '*'0(22@51"'CKCalendarView' may not respond to '-dateIsToday:'386766042#1802#128#0(6@61"/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m386765063#319#0#319#0#26"'*' may not respond to '*'0(22@61"'CKCalendarView' may not respond to '-compareByMonth:toDate:'386766042#1930#138#0(6@61"/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m386765063#326#0#326#0#26"'*' may not respond to '*'0(22@47"'CKCalendarView' may not respond to '-nextDay:'386766042#2068#124#0(6@61"/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m386765063#338#0#338#0#26"'*' may not respond to '*'0(22@69"'CKCalendarView' may not respond to '-firstDayOfMonthContainingDate:'386766042#2305#146#0(6@61"/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m386765063#377#0#377#0#26"'*' may not respond to '*'0(22@67"'CKCalendarView' may not respond to '-numberOfDaysFromDate:toDate:'386766042#2570#144#0(6@61"/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m386765063#427#0#427#0#26"'*' may not respond to '*'0(22@56"Initialization makes integer from pointer without a cast386766042#2714#133#0(6@61"/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m386765063#427#0#427#0#0"0(22@58"'CKCalendarView' may not respond to '-placeInWeekForDate:'386766042#2847#135#0(6@61"/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m386765063#428#0#428#0#26"'*' may not respond to '*'0(22@58"'CKCalendarView' may not respond to '-placeInWeekForDate:'386766042#2982#135#0(6@61"/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m386765063#430#0#430#0#26"'*' may not respond to '*'0(22@56"Initialization makes integer from pointer without a cast386766042#3117#133#0(6@61"/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m386765063#430#0#430#0#0"0(22@60"'CKCalendarView' may not respond to '+imageNamed:withColor:'386766042#3362#137#0(6@61"/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m386765063#483#0#483#0#26"'*' may not respond to '*'0(22@60"'CKCalendarView' may not respond to '+imageNamed:withColor:'386766042#3499#137#0(6@61"/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m386765063#484#0#484#0#26"'*' may not respond to '*'0(22@60"'CKCalendarView' may not respond to '-date:isSameDayAsDate:'386766042#3745#137#0(6@61"/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m386765063#586#0#586#0#26"'*' may not respond to '*'0(22@48"Return makes integer from pointer without a cast386766042#3882#125#0(6@61"/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m386765063#586#0#586#0#0"0(0#0#61"/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m8621313024#1907"    cd /Users/alenaguseva/Documents/project    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/alenaguseva/Documents/project/build/project.build/Debug-iphonesimulator/project.build/project-generated-files.hmap -I/Users/alenaguseva/Documents/project/build/project.build/Debug-iphonesimulator/project.build/project-own-target-headers.hmap -I/Users/alenaguseva/Documents/project/build/project.build/Debug-iphonesimulator/project.build/project-all-target-headers.hmap -iquote /Users/alenaguseva/Documents/project/build/project.build/Debug-iphonesimulator/project.build/project-project-headers.hmap -F/Users/alenaguseva/Documents/project/build/Debug-iphonesimulator -I/Users/alenaguseva/Documents/project/build/Debug-iphonesimulator/include -I/Users/alenaguseva/Documents/project/build/project.build/Debug-iphonesimulator/project.build/DerivedSources/i386 -I/Users/alenaguseva/Documents/project/build/project.build/Debug-iphonesimulator/project.build/DerivedSources -include /var/folders/SV/SVCcTwtlERmenKfJPMIj3E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/project_Prefix-bmqbmcvelhodciaqpvbolrjinauj/project_Prefix.pch -c /Users/alenaguseva/Documents/project/Classes/CKCalendarView.m -o /Users/alenaguseva/Documents/project/build/project.build/Debug-iphonesimulator/project.build/Objects-normal/i386/CKCalendarView.o0#
+
+CCompileC build/project.build/Debug-iphonesimulator/project.build/Objects-normal/i386/CalendarView.o /Users/alenaguseva/Documents/project/Classes/CalendarView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s386766041.364323
+e386766041.692249
+r0
+xCompileC
+xbuild/project.build/Debug-iphonesimulator/project.build/Objects-normal/i386/CalendarView.o
+x/Users/alenaguseva/Documents/project/Classes/CalendarView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/alenaguseva/Documents/project/Classes/CalendarView.m: In function '-[CalendarView dateButtonPressed:]':
+o/Users/alenaguseva/Documents/project/Classes/CalendarView.m:16: warning: 'CKCalendarView' may not respond to '-dateButtonPressed:'
+o/Users/alenaguseva/Documents/project/Classes/CalendarView.m:16: warning: (Messages without a matching method signature
+o/Users/alenaguseva/Documents/project/Classes/CalendarView.m:16: warning: will be assumed to return 'id' and accept
+o/Users/alenaguseva/Documents/project/Classes/CalendarView.m:16: warning: '...' as arguments.)
+o/Users/alenaguseva/Documents/project/Classes/CalendarView.m:17: error: expected ';' before '}' token
+lSLF07#2@67"Compile /Users/alenaguseva/Documents/project/Classes/CalendarView.m386766041#386766041#0(671"/Users/alenaguseva/Documents/project/Classes/CalendarView.m: In function '-[CalendarView dateButtonPressed:]':/Users/alenaguseva/Documents/project/Classes/CalendarView.m:16: warning: 'CKCalendarView' may not respond to '-dateButtonPressed:'/Users/alenaguseva/Documents/project/Classes/CalendarView.m:16: warning: (Messages without a matching method signature/Users/alenaguseva/Documents/project/Classes/CalendarView.m:16: warning: will be assumed to return 'id' and accept/Users/alenaguseva/Documents/project/Classes/CalendarView.m:16: warning: '...' as arguments.)/Users/alenaguseva/Documents/project/Classes/CalendarView.m:17: error: expected ';' before '}' token3(22@57"'CKCalendarView' may not respond to '-dateButtonPressed:'386766041#111#131#0(6@59"/Users/alenaguseva/Documents/project/Classes/CalendarView.m386765620#16#0#16#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)386766041#242#119#0(6@59"/Users/alenaguseva/Documents/project/Classes/CalendarView.m386765620#16#0#16#0#0"0(4@29"Expected ';' before '}' token386766041#570#101#0(6@59"/Users/alenaguseva/Documents/project/Classes/CalendarView.m386765620#17#0#17#0#19"expected * before *0(0#0#59"/Users/alenaguseva/Documents/project/Classes/CalendarView.m8600871872#1903"    cd /Users/alenaguseva/Documents/project    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/alenaguseva/Documents/project/build/project.build/Debug-iphonesimulator/project.build/project-generated-files.hmap -I/Users/alenaguseva/Documents/project/build/project.build/Debug-iphonesimulator/project.build/project-own-target-headers.hmap -I/Users/alenaguseva/Documents/project/build/project.build/Debug-iphonesimulator/project.build/project-all-target-headers.hmap -iquote /Users/alenaguseva/Documents/project/build/project.build/Debug-iphonesimulator/project.build/project-project-headers.hmap -F/Users/alenaguseva/Documents/project/build/Debug-iphonesimulator -I/Users/alenaguseva/Documents/project/build/Debug-iphonesimulator/include -I/Users/alenaguseva/Documents/project/build/project.build/Debug-iphonesimulator/project.build/DerivedSources/i386 -I/Users/alenaguseva/Documents/project/build/project.build/Debug-iphonesimulator/project.build/DerivedSources -include /var/folders/SV/SVCcTwtlERmenKfJPMIj3E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/project_Prefix-bmqbmcvelhodciaqpvbolrjinauj/project_Prefix.pch -c /Users/alenaguseva/Documents/project/Classes/CalendarView.m -o /Users/alenaguseva/Documents/project/build/project.build/Debug-iphonesimulator/project.build/Objects-normal/i386/CalendarView.o1#
+
+CCompileC build/project.build/Debug-iphonesimulator/project.build/Objects-normal/i386/TableView.o /Users/alenaguseva/Documents/project/Classes/TableView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s386766042.676012
+e386766043.093588
+r1
+xCompileC
+xbuild/project.build/Debug-iphonesimulator/project.build/Objects-normal/i386/TableView.o
+x/Users/alenaguseva/Documents/project/Classes/TableView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/alenaguseva/Documents/project/Classes/TableView.m386766042#386766043#0(0"0(0#0#56"/Users/alenaguseva/Documents/project/Classes/TableView.m8619509920#1897"    cd /Users/alenaguseva/Documents/project    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/alenaguseva/Documents/project/build/project.build/Debug-iphonesimulator/project.build/project-generated-files.hmap -I/Users/alenaguseva/Documents/project/build/project.build/Debug-iphonesimulator/project.build/project-own-target-headers.hmap -I/Users/alenaguseva/Documents/project/build/project.build/Debug-iphonesimulator/project.build/project-all-target-headers.hmap -iquote /Users/alenaguseva/Documents/project/build/project.build/Debug-iphonesimulator/project.build/project-project-headers.hmap -F/Users/alenaguseva/Documents/project/build/Debug-iphonesimulator -I/Users/alenaguseva/Documents/project/build/Debug-iphonesimulator/include -I/Users/alenaguseva/Documents/project/build/project.build/Debug-iphonesimulator/project.build/DerivedSources/i386 -I/Users/alenaguseva/Documents/project/build/project.build/Debug-iphonesimulator/project.build/DerivedSources -include /var/folders/SV/SVCcTwtlERmenKfJPMIj3E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/project_Prefix-bmqbmcvelhodciaqpvbolrjinauj/project_Prefix.pch -c /Users/alenaguseva/Documents/project/Classes/TableView.m -o /Users/alenaguseva/Documents/project/build/project.build/Debug-iphonesimulator/project.build/Objects-normal/i386/TableView.o0#
+
+CCompileC build/project.build/Debug-iphonesimulator/project.build/Objects-normal/i386/main.o /Users/alenaguseva/Documents/project/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s386766040.287896
+e386766040.609156
+r1
+xCompileC
+xbuild/project.build/Debug-iphonesimulator/project.build/Objects-normal/i386/main.o
+x/Users/alenaguseva/Documents/project/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@51"Compile /Users/alenaguseva/Documents/project/main.m386766040#386766040#0(0"0(0#0#43"/Users/alenaguseva/Documents/project/main.m8603266912#1879"    cd /Users/alenaguseva/Documents/project    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/alenaguseva/Documents/project/build/project.build/Debug-iphonesimulator/project.build/project-generated-files.hmap -I/Users/alenaguseva/Documents/project/build/project.build/Debug-iphonesimulator/project.build/project-own-target-headers.hmap -I/Users/alenaguseva/Documents/project/build/project.build/Debug-iphonesimulator/project.build/project-all-target-headers.hmap -iquote /Users/alenaguseva/Documents/project/build/project.build/Debug-iphonesimulator/project.build/project-project-headers.hmap -F/Users/alenaguseva/Documents/project/build/Debug-iphonesimulator -I/Users/alenaguseva/Documents/project/build/Debug-iphonesimulator/include -I/Users/alenaguseva/Documents/project/build/project.build/Debug-iphonesimulator/project.build/DerivedSources/i386 -I/Users/alenaguseva/Documents/project/build/project.build/Debug-iphonesimulator/project.build/DerivedSources -include /var/folders/SV/SVCcTwtlERmenKfJPMIj3E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/project_Prefix-bmqbmcvelhodciaqpvbolrjinauj/project_Prefix.pch -c /Users/alenaguseva/Documents/project/main.m -o /Users/alenaguseva/Documents/project/build/project.build/Debug-iphonesimulator/project.build/Objects-normal/i386/main.o0#
+
+CCompileC build/project.build/Debug-iphonesimulator/project.build/Objects-normal/i386/projectAppDelegate.o /Users/alenaguseva/Documents/project/Classes/projectAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s386766040.609312
+e386766040.913930
+r0
+xCompileC
+xbuild/project.build/Debug-iphonesimulator/project.build/Objects-normal/i386/projectAppDelegate.o
+x/Users/alenaguseva/Documents/project/Classes/projectAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/alenaguseva/Documents/project/Classes/projectAppDelegate.m:10:
+o/Users/alenaguseva/Documents/project/Classes/projectViewController.h:12: error: expected specifier-qualifier-list before 'CalendarView'
+o/Users/alenaguseva/Documents/project/Classes/projectViewController.h:13: error: expected specifier-qualifier-list before 'TableView'
+lSLF07#2@73"Compile /Users/alenaguseva/Documents/project/Classes/projectAppDelegate.m386766040#386766040#0(361"In file included from /Users/alenaguseva/Documents/project/Classes/projectAppDelegate.m:10:/Users/alenaguseva/Documents/project/Classes/projectViewController.h:12: error: expected specifier-qualifier-list before 'CalendarView'/Users/alenaguseva/Documents/project/Classes/projectViewController.h:13: error: expected specifier-qualifier-list before 'TableView'2(4@55"Expected specifier-qualifier-list before 'CalendarView'386766040#92#136#2(7@87"In file included from /Users/alenaguseva/Documents/project/Classes/projectAppDelegate.m386766040#18446744073709551615#0#0(6@65"/Users/alenaguseva/Documents/project/Classes/projectAppDelegate.m386765651#10#0#10#0#0"0(13@127"Expected specifier-qualifier-list before 'CalendarView' in /Users/alenaguseva/Documents/project/Classes/projectViewController.h386766040#18446744073709551615#0#0(6@68"/Users/alenaguseva/Documents/project/Classes/projectViewController.h386766034#12#0#12#0#0"0(6@68"/Users/alenaguseva/Documents/project/Classes/projectViewController.h386766034#12#0#12#0#19"expected * before *0(4@52"Expected specifier-qualifier-list before 'TableView'386766040#228#133#2(7@87"In file included from /Users/alenaguseva/Documents/project/Classes/projectAppDelegate.m386766040#18446744073709551615#0#0(6@65"/Users/alenaguseva/Documents/project/Classes/projectAppDelegate.m386765651#10#0#10#0#0"0(13@124"Expected specifier-qualifier-list before 'TableView' in /Users/alenaguseva/Documents/project/Classes/projectViewController.h386766040#18446744073709551615#0#0(6@68"/Users/alenaguseva/Documents/project/Classes/projectViewController.h386766034#13#0#13#0#0"0(6@68"/Users/alenaguseva/Documents/project/Classes/projectViewController.h386766034#13#0#13#0#19"expected * before *0(0#0#65"/Users/alenaguseva/Documents/project/Classes/projectAppDelegate.m8616053824#1915"    cd /Users/alenaguseva/Documents/project    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/alenaguseva/Documents/project/build/project.build/Debug-iphonesimulator/project.build/project-generated-files.hmap -I/Users/alenaguseva/Documents/project/build/project.build/Debug-iphonesimulator/project.build/project-own-target-headers.hmap -I/Users/alenaguseva/Documents/project/build/project.build/Debug-iphonesimulator/project.build/project-all-target-headers.hmap -iquote /Users/alenaguseva/Documents/project/build/project.build/Debug-iphonesimulator/project.build/project-project-headers.hmap -F/Users/alenaguseva/Documents/project/build/Debug-iphonesimulator -I/Users/alenaguseva/Documents/project/build/Debug-iphonesimulator/include -I/Users/alenaguseva/Documents/project/build/project.build/Debug-iphonesimulator/project.build/DerivedSources/i386 -I/Users/alenaguseva/Documents/project/build/project.build/Debug-iphonesimulator/project.build/DerivedSources -include /var/folders/SV/SVCcTwtlERmenKfJPMIj3E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/project_Prefix-bmqbmcvelhodciaqpvbolrjinauj/project_Prefix.pch -c /Users/alenaguseva/Documents/project/Classes/projectAppDelegate.m -o /Users/alenaguseva/Documents/project/build/project.build/Debug-iphonesimulator/project.build/Objects-normal/i386/projectAppDelegate.o1#
+
+CCompileC build/project.build/Debug-iphonesimulator/project.build/Objects-normal/i386/projectViewController.o /Users/alenaguseva/Documents/project/Classes/projectViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s386766040.914081
+e386766041.364172
+r0
+xCompileC
+xbuild/project.build/Debug-iphonesimulator/project.build/Objects-normal/i386/projectViewController.o
+x/Users/alenaguseva/Documents/project/Classes/projectViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/alenaguseva/Documents/project/Classes/projectViewController.m:9:
+o/Users/alenaguseva/Documents/project/Classes/projectViewController.h:12: error: expected specifier-qualifier-list before 'CalendarView'
+o/Users/alenaguseva/Documents/project/Classes/projectViewController.h:13: error: expected specifier-qualifier-list before 'TableView'
+o/Users/alenaguseva/Documents/project/Classes/projectViewController.m: In function '-[projectViewController initWithNibName:bundle:]':
+o/Users/alenaguseva/Documents/project/Classes/projectViewController.m:20: error: 'CalendarView' undeclared (first use in this function)
+o/Users/alenaguseva/Documents/project/Classes/projectViewController.m:20: error: (Each undeclared identifier is reported only once
+o/Users/alenaguseva/Documents/project/Classes/projectViewController.m:20: error: for each function it appears in.)
+o/Users/alenaguseva/Documents/project/Classes/projectViewController.m:20: error: 'calendar' undeclared (first use in this function)
+o/Users/alenaguseva/Documents/project/Classes/projectViewController.m:21: error: 'TableView' undeclared (first use in this function)
+o/Users/alenaguseva/Documents/project/Classes/projectViewController.m:21: error: 'table' undeclared (first use in this function)
+o/Users/alenaguseva/Documents/project/Classes/projectViewController.m:23: error: request for member 'calendar' in something not a structure or union
+o/Users/alenaguseva/Documents/project/Classes/projectViewController.m:26: error: request for member 'table' in something not a structure or union
+o/Users/alenaguseva/Documents/project/Classes/projectViewController.m: At top level:
+o/Users/alenaguseva/Documents/project/Classes/projectViewController.m:74: warning: property 'label' requires method '-label' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/alenaguseva/Documents/project/Classes/projectViewController.m:74: warning: property 'label' requires the method 'setLabel:' to be defined - use @synthesize, @dynamic or provide a method implementation
+lSLF07#2@76"Compile /Users/alenaguseva/Documents/project/Classes/projectViewController.m386766040#386766041#0(2053"In file included from /Users/alenaguseva/Documents/project/Classes/projectViewController.m:9:/Users/alenaguseva/Documents/project/Classes/projectViewController.h:12: error: expected specifier-qualifier-list before 'CalendarView'/Users/alenaguseva/Documents/project/Classes/projectViewController.h:13: error: expected specifier-qualifier-list before 'TableView'/Users/alenaguseva/Documents/project/Classes/projectViewController.m: In function '-[projectViewController initWithNibName:bundle:]':/Users/alenaguseva/Documents/project/Classes/projectViewController.m:20: error: 'CalendarView' undeclared (first use in this function)/Users/alenaguseva/Documents/project/Classes/projectViewController.m:20: error: (Each undeclared identifier is reported only once/Users/alenaguseva/Documents/project/Classes/projectViewController.m:20: error: for each function it appears in.)/Users/alenaguseva/Documents/project/Classes/projectViewController.m:20: error: 'calendar' undeclared (first use in this function)/Users/alenaguseva/Documents/project/Classes/projectViewController.m:21: error: 'TableView' undeclared (first use in this function)/Users/alenaguseva/Documents/project/Classes/projectViewController.m:21: error: 'table' undeclared (first use in this function)/Users/alenaguseva/Documents/project/Classes/projectViewController.m:23: error: request for member 'calendar' in something not a structure or union/Users/alenaguseva/Documents/project/Classes/projectViewController.m:26: error: request for member 'table' in something not a structure or union/Users/alenaguseva/Documents/project/Classes/projectViewController.m: At top level:/Users/alenaguseva/Documents/project/Classes/projectViewController.m:74: warning: property 'label' requires method '-label' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/alenaguseva/Documents/project/Classes/projectViewController.m:74: warning: property 'label' requires the method 'setLabel:' to be defined - use @synthesize, @dynamic or provide a method implementation11(4@55"Expected specifier-qualifier-list before 'CalendarView'386766041#94#136#2(7@90"In file included from /Users/alenaguseva/Documents/project/Classes/projectViewController.m386766041#18446744073709551615#0#0(6@68"/Users/alenaguseva/Documents/project/Classes/projectViewController.m386766034#9#0#9#0#0"0(13@127"Expected specifier-qualifier-list before 'CalendarView' in /Users/alenaguseva/Documents/project/Classes/projectViewController.h386766041#18446744073709551615#0#0(6@68"/Users/alenaguseva/Documents/project/Classes/projectViewController.h386766034#12#0#12#0#0"0(6@68"/Users/alenaguseva/Documents/project/Classes/projectViewController.h386766034#12#0#12#0#19"expected * before *0(4@52"Expected specifier-qualifier-list before 'TableView'386766041#230#133#2(7@90"In file included from /Users/alenaguseva/Documents/project/Classes/projectViewController.m386766041#18446744073709551615#0#0(6@68"/Users/alenaguseva/Documents/project/Classes/projectViewController.m386766034#9#0#9#0#0"0(13@124"Expected specifier-qualifier-list before 'TableView' in /Users/alenaguseva/Documents/project/Classes/projectViewController.h386766041#18446744073709551615#0#0(6@68"/Users/alenaguseva/Documents/project/Classes/projectViewController.h386766034#13#0#13#0#0"0(6@68"/Users/alenaguseva/Documents/project/Classes/projectViewController.h386766034#13#0#13#0#19"expected * before *0(4@54"'CalendarView' undeclared (first use in this function)386766041#497#135#0(6@68"/Users/alenaguseva/Documents/project/Classes/projectViewController.m386766034#20#0#20#0#43"'*' undeclared (first use in this function)0(4@50"'calendar' undeclared (first use in this function)386766041#876#131#0(6@68"/Users/alenaguseva/Documents/project/Classes/projectViewController.m386766034#20#0#20#0#43"'*' undeclared (first use in this function)0(4@51"'TableView' undeclared (first use in this function)386766041#1007#132#0(6@68"/Users/alenaguseva/Documents/project/Classes/projectViewController.m386766034#21#0#21#0#43"'*' undeclared (first use in this function)0(4@47"'table' undeclared (first use in this function)386766041#1139#128#0(6@68"/Users/alenaguseva/Documents/project/Classes/projectViewController.m386766034#21#0#21#0#43"'*' undeclared (first use in this function)0(4@67"Request for member 'calendar' in something not a structure or union386766041#1267#148#0(6@68"/Users/alenaguseva/Documents/project/Classes/projectViewController.m386766034#23#0#23#0#0"0(4@64"Request for member 'table' in something not a structure or union386766041#1415#145#0(6@68"/Users/alenaguseva/Documents/project/Classes/projectViewController.m386766034#26#0#26#0#0"0(23@13"At top level:386766041#1560#84#0(6@68"/Users/alenaguseva/Documents/project/Classes/projectViewController.m386766034#0#0#0#0#0"0(22@118"Property 'label' requires method '-label' to be defined - use @synthesize, @dynamic or provide a method implementation386766041#1644#201#0(6@68"/Users/alenaguseva/Documents/project/Classes/projectViewController.m386766034#74#0#74#0#0"0(22@125"Property 'label' requires the method 'setLabel:' to be defined - use @synthesize, @dynamic or provide a method implementation386766041#1845#208#0(6@68"/Users/alenaguseva/Documents/project/Classes/projectViewController.m386766034#74#0#74#0#0"0(0#0#68"/Users/alenaguseva/Documents/project/Classes/projectViewController.m8619937920#1921"    cd /Users/alenaguseva/Documents/project    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/alenaguseva/Documents/project/build/project.build/Debug-iphonesimulator/project.build/project-generated-files.hmap -I/Users/alenaguseva/Documents/project/build/project.build/Debug-iphonesimulator/project.build/project-own-target-headers.hmap -I/Users/alenaguseva/Documents/project/build/project.build/Debug-iphonesimulator/project.build/project-all-target-headers.hmap -iquote /Users/alenaguseva/Documents/project/build/project.build/Debug-iphonesimulator/project.build/project-project-headers.hmap -F/Users/alenaguseva/Documents/project/build/Debug-iphonesimulator -I/Users/alenaguseva/Documents/project/build/Debug-iphonesimulator/include -I/Users/alenaguseva/Documents/project/build/project.build/Debug-iphonesimulator/project.build/DerivedSources/i386 -I/Users/alenaguseva/Documents/project/build/project.build/Debug-iphonesimulator/project.build/DerivedSources -include /var/folders/SV/SVCcTwtlERmenKfJPMIj3E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/project_Prefix-bmqbmcvelhodciaqpvbolrjinauj/project_Prefix.pch -c /Users/alenaguseva/Documents/project/Classes/projectViewController.m -o /Users/alenaguseva/Documents/project/build/project.build/Debug-iphonesimulator/project.build/Objects-normal/i386/projectViewController.o1#
+
+CCompileXIB /Users/alenaguseva/Documents/project/MainWindow.xib
+s386766034.383900
+e386766036.855334
+r1
+xCompileXIB
+x/Users/alenaguseva/Documents/project/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib386766034#386766036#0(0"0(0#0#51"/Users/alenaguseva/Documents/project/MainWindow.xib8603349760#564"    cd /Users/alenaguseva/Documents/project    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/alenaguseva/Documents/project/build/Debug-iphonesimulator/project.app/MainWindow.nib /Users/alenaguseva/Documents/project/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/alenaguseva/Documents/project/projectViewController.xib
+s386766036.855629
+e386766038.173393
+r1
+xCompileXIB
+x/Users/alenaguseva/Documents/project/projectViewController.xib
+lSLF07#2@36"CompileXIB projectViewController.xib386766036#386766038#0(0"0(0#0#62"/Users/alenaguseva/Documents/project/projectViewController.xib8620070848#586"    cd /Users/alenaguseva/Documents/project    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/alenaguseva/Documents/project/build/Debug-iphonesimulator/project.app/projectViewController.nib /Users/alenaguseva/Documents/project/projectViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CGenerateDSYMFile /Users/alenaguseva/Documents/project/build/Debug-iphonesimulator/project.app.dSYM /Users/alenaguseva/Documents/project/build/Debug-iphonesimulator/project.app/project
+r0
+
+CLd /Users/alenaguseva/Documents/project/build/Debug-iphonesimulator/project.app/project normal i386
+r0
+
+CProcessInfoPlistFile /Users/alenaguseva/Documents/project/build/Debug-iphonesimulator/project.app/Info.plist project-Info.plist
+s386766034.310162
+e386766034.383735
+r1
+xProcessInfoPlistFile
+x/Users/alenaguseva/Documents/project/build/Debug-iphonesimulator/project.app/Info.plist
+xproject-Info.plist
+lSLF07#2@26"Process project-Info.plist386766034#386766034#0(0"0(0#0#55"/Users/alenaguseva/Documents/project/project-Info.plist31244220637446252#473"    cd /Users/alenaguseva/Documents/project    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility project-Info.plist -genpkginfo /Users/alenaguseva/Documents/project/build/Debug-iphonesimulator/project.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/alenaguseva/Documents/project/build/Debug-iphonesimulator/project.app/Info.plist0#
+
+CProcessPCH /var/folders/SV/SVCcTwtlERmenKfJPMIj3E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/project_Prefix-bmqbmcvelhodciaqpvbolrjinauj/project_Prefix.pch.gch project_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s386766038.173611
+e386766040.287542
+r1
+xProcessPCH
+x/var/folders/SV/SVCcTwtlERmenKfJPMIj3E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/project_Prefix-bmqbmcvelhodciaqpvbolrjinauj/project_Prefix.pch.gch
+xproject_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile project_Prefix.pch386766038#386766040#0(0"0(0#0#55"/Users/alenaguseva/Documents/project/project_Prefix.pch8613315968#1773"    cd /Users/alenaguseva/Documents/project    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/alenaguseva/Documents/project/build/project.build/Debug-iphonesimulator/project.build/project-generated-files.hmap -I/Users/alenaguseva/Documents/project/build/project.build/Debug-iphonesimulator/project.build/project-own-target-headers.hmap -I/Users/alenaguseva/Documents/project/build/project.build/Debug-iphonesimulator/project.build/project-all-target-headers.hmap -iquote /Users/alenaguseva/Documents/project/build/project.build/Debug-iphonesimulator/project.build/project-project-headers.hmap -F/Users/alenaguseva/Documents/project/build/Debug-iphonesimulator -I/Users/alenaguseva/Documents/project/build/Debug-iphonesimulator/include -I/Users/alenaguseva/Documents/project/build/project.build/Debug-iphonesimulator/project.build/DerivedSources/i386 -I/Users/alenaguseva/Documents/project/build/project.build/Debug-iphonesimulator/project.build/DerivedSources -c /Users/alenaguseva/Documents/project/project_Prefix.pch -o /var/folders/SV/SVCcTwtlERmenKfJPMIj3E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/project_Prefix-bmqbmcvelhodciaqpvbolrjinauj/project_Prefix.pch.gch0#
+
+CTouch /Users/alenaguseva/Documents/project/build/Debug-iphonesimulator/project.app
+r0
+
