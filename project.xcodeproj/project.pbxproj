@@ -26,6 +26,7 @@
 		C8887854170D959D005740C1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8887853170D959D005740C1 /* QuartzCore.framework */; };
 		C888793C170DA7E2005740C1 /* loadAction.m in Sources */ = {isa = PBXBuildFile; fileRef = C888793B170DA7E2005740C1 /* loadAction.m */; };
 		C888793E170DA83A005740C1 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C888793D170DA83A005740C1 /* EventKit.framework */; };
+		C890FEA4172010B2005B16A8 /* DateButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C890FEA3172010B2005B16A8 /* DateButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +58,8 @@
 		C888793A170DA7E2005740C1 /* loadAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = loadAction.h; sourceTree = "<group>"; };
 		C888793B170DA7E2005740C1 /* loadAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = loadAction.m; sourceTree = "<group>"; };
 		C888793D170DA83A005740C1 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		C890FEA2172010B2005B16A8 /* DateButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateButton.h; sourceTree = "<group>"; };
+		C890FEA3172010B2005B16A8 /* DateButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +94,8 @@
 				C888793B170DA7E2005740C1 /* loadAction.m */,
 				C88877EE170D942F005740C1 /* CalendarView.h */,
 				C88877EF170D943B005740C1 /* CalendarView.m */,
+				C890FEA2172010B2005B16A8 /* DateButton.h */,
+				C890FEA3172010B2005B16A8 /* DateButton.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -216,6 +221,7 @@
 				C88877F5170D9455005740C1 /* CKCalendarView.m in Sources */,
 				C88877F8170D9464005740C1 /* TableView.m in Sources */,
 				C888793C170DA7E2005740C1 /* loadAction.m in Sources */,
+				C890FEA4172010B2005B16A8 /* DateButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

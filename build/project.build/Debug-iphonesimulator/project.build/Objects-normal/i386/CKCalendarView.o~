@@ -1,0 +1,31 @@
+/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m: In function '-[CKCalendarView internalInit:]':
+/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m:223: warning: 'CKCalendarView' may not respond to '-updateDayOfWeekLabels'
+/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m:223: warning: (Messages without a matching method signature
+/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m:223: warning: will be assumed to return 'id' and accept
+/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m:223: warning: '...' as arguments.)
+/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m:240: warning: 'CKCalendarView' may not respond to '-setDefaultStyle'
+/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m: In function '-[CKCalendarView calculateDayCellFrame:]':
+/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m:245: warning: 'CKCalendarView' may not respond to '-numberOfDaysFromDate:toDate:'
+/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m:245: warning: initialization makes integer from pointer without a cast
+/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m:246: warning: 'CKCalendarView' may not respond to '-placeInWeekForDate:'
+/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m:248: warning: 'CKCalendarView' may not respond to '-placeInWeekForDate:'
+/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m:248: warning: initialization makes integer from pointer without a cast
+/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m: In function '-[CKCalendarView layoutSubviews]':
+/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m:281: warning: 'CKCalendarView' may not respond to '-numberOfWeeksInMonthContainingDate:'
+/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m:281: warning: assignment makes integer from pointer without a cast
+/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m:309: warning: 'CKCalendarView' may not respond to '-firstDayOfMonthContainingDate:'
+/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m:311: warning: 'CKCalendarView' may not respond to '-placeInWeekForDate:'
+/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m:312: warning: 'CKCalendarView' may not respond to '-previousDay:'
+/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m:316: warning: 'CKCalendarView' may not respond to '-firstDayOfNextMonthContainingDate:'
+/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m:328: warning: 'CKCalendarView' may not respond to '-date:isSameDayAsDate:'
+/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m:331: warning: 'CKCalendarView' may not respond to '-dateIsToday:'
+/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m:340: warning: 'CKCalendarView' may not respond to '-compareByMonth:toDate:'
+/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m:353: warning: 'CKCalendarView' may not respond to '-nextDay:'
+/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m: In function '-[CKCalendarView setMonthShowing:]':
+/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m:394: warning: 'CKCalendarView' may not respond to '-firstDayOfMonthContainingDate:'
+/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m: In function '-[CKCalendarView setButtonColor:]':
+/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m:496: warning: 'CKCalendarView' may not respond to '+imageNamed:withColor:'
+/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m:497: warning: 'CKCalendarView' may not respond to '+imageNamed:withColor:'
+/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m: In function '-[CKCalendarView dateIsToday:]':
+/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m:599: warning: 'CKCalendarView' may not respond to '-date:isSameDayAsDate:'
+/Users/alenaguseva/Documents/project/Classes/CKCalendarView.m:599: warning: return makes integer from pointer without a cast

@@ -19,7 +19,7 @@
 #import <CoreGraphics/CoreGraphics.h>
 #import <QuartzCore/QuartzCore.h>
 #import "CKCalendarView.h"
-
+#import "DateButton.h"
 #define BUTTON_MARGIN 4
 #define CALENDAR_MARGIN 5
 #define TOP_HEIGHT 44
@@ -65,7 +65,7 @@
 @end
 
 
-@interface DateButton : UIButton
+/*@interface DateButton : UIButton
 
 @property (nonatomic,retain) NSDate *date;
 @property (nonatomic,retain) NSCalendar *calendar;
@@ -78,12 +78,14 @@
 @synthesize calendar = _calendar;
 
 - (void)setDate:(NSDate *)date {
-    _date = date;
+	if (_date==date) return;
+	 [_date release];
+	 _date=[date retain];
     NSDateComponents *comps = [self.calendar components:NSDayCalendarUnit|NSMonthCalendarUnit fromDate:date];
     [self setTitle:[NSString stringWithFormat:@"%d", comps.day] forState:UIControlStateNormal];
 }
 
-@end
+@end*/
 
 
 @interface CKCalendarView ()
@@ -387,10 +389,9 @@
 }
 
 - (void)setMonthShowing:(NSDate *)aMonthShowing{
-	
+	if (self.monthShowing==aMonthShowing) return;
 	[_monthShowing retain];
-	[aMonthShowing retain];
-    _monthShowing = [self firstDayOfMonthContainingDate:aMonthShowing];
+    _monthShowing = [[self firstDayOfMonthContainingDate:aMonthShowing]retain];
     [self setNeedsLayout];
 }
 
@@ -443,15 +444,14 @@
 - (void)moveCalendarToNextMonth {
     NSDateComponents* comps = [[NSDateComponents alloc] init];
     [comps setMonth:1];
-	NSDate *fr=self.monthShowing;
-    self.monthShowing = [self.calendar dateByAddingComponents:comps toDate:self.monthShowing options:0];
+	self.monthShowing = [self.calendar dateByAddingComponents:comps toDate:self.monthShowing options:0];
     if ( [self.delegate respondsToSelector:@selector(calendar:didChangeMonth:)] ) {
         [self.delegate calendar:self didChangeMonth:self.monthShowing];
     }
 }
 
 - (void)moveCalendarToPreviousMonth {
-    NSDateComponents* comps = [[NSDateComponents alloc] init];
+	    NSDateComponents* comps = [[NSDateComponents alloc] init];
     [comps setMonth:-1];
     self.monthShowing = [self.calendar dateByAddingComponents:comps toDate:self.monthShowing options:0];
     if ( [self.delegate respondsToSelector:@selector(calendar:didChangeMonth:)] ) {
@@ -469,7 +469,7 @@
         return;
     } else {
         self.selectedDate = date;
-        [self.delegate calendar:self didSelectDate:self.selectedDate atButton:dateButton];
+       // [self.delegate calendar:self didSelectDate:self.selectedDate atButton:dateButton];
         if ([thisMonth compare:self.monthShowing] != NSOrderedSame) {
             [self.delegate calendar:self didChangeMonth:self.monthShowing];
         }
@@ -665,5 +665,10 @@
 
     return coloredImg;
 }
+#pragma mark - CKCalendarDelegate
+- (void)calendar:(CKCalendarView *)calendar didSelectDate:(NSDate *)date {
+	
+		NSLog(@"selected Date %@", [self.dateFormatter stringFromDate:date]);
+	}
 
 @end

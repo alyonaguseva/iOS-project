@@ -1,0 +1,11 @@
+/Users/alenaguseva/Documents/project/Classes/DateButton.m:13: error: no declaration of property 'date' found in the interface
+/Users/alenaguseva/Documents/project/Classes/DateButton.m:14: error: no declaration of property 'calendar' found in the interface
+/Users/alenaguseva/Documents/project/Classes/DateButton.m: In function '-[DateButton setDate:]':
+/Users/alenaguseva/Documents/project/Classes/DateButton.m:17: error: '_date' undeclared (first use in this function)
+/Users/alenaguseva/Documents/project/Classes/DateButton.m:17: error: (Each undeclared identifier is reported only once
+/Users/alenaguseva/Documents/project/Classes/DateButton.m:17: error: for each function it appears in.)
+/Users/alenaguseva/Documents/project/Classes/DateButton.m:20: error: request for member 'calendar' in something not a structure or union
+/Users/alenaguseva/Documents/project/Classes/DateButton.m:21: warning: 'DateButton' may not respond to '-setTitle:forState:'
+/Users/alenaguseva/Documents/project/Classes/DateButton.m:21: warning: (Messages without a matching method signature
+/Users/alenaguseva/Documents/project/Classes/DateButton.m:21: warning: will be assumed to return 'id' and accept
+/Users/alenaguseva/Documents/project/Classes/DateButton.m:21: warning: '...' as arguments.)

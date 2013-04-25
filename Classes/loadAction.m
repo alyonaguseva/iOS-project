@@ -12,6 +12,7 @@
 @implementation loadAction
 
 @synthesize actions=_actions;
+@synthesize eventsList=_eventlist;
 -(NSArray *) loadActionByDate:(NSDate *)data calendar:(CalendarView *)calendar
 {
 	
@@ -19,11 +20,12 @@
 	self.eventsList = [[NSMutableArray alloc] initWithArray:0];
 	NSPredicate *predicate;
 	NSDate *startDate = data;
-	NSDate *endDate = data+86400;
-	NSArray *calendarArray = [NSArray arrayWithObject:calendar];
-	predicate=[self.actions predicateForEventsWithStartDate:startDate endDate:endDate calendars:calendarArray];
-	NSArray *events;// = [self.actions eventsMatchingPredicate:predicate];
+	NSDate *endDate = [[NSDate alloc]initWithTimeInterval:86400 sinceDate:data];
+	NSArray *calendarArray;// = [NSArray arrayWithObject:defaultCalendar];
+	predicate=[self.actions predicateForEventsWithStartDate:startDate endDate:endDate calendars:nil];
+	NSArray *events = [self.actions eventsMatchingPredicate:predicate];
 	return events;
 }
+
 
 @end

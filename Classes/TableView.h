@@ -7,11 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <AddressBook/AddressBook.h>
+
 
 @interface TableView: UITableViewController {
 	NSMutableArray *items;
-	CFTypeRef addressbook;
+	
+	
 }
 
 @end

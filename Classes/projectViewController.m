@@ -49,8 +49,9 @@
 	[self.view addSubview:calendar];
 	label.frame=CGRectMake(10,310, 300,100);
 	label.backgroundColor=[UIColor blueColor];
+
 	self.label=label;
-	[self.view addSubview:label];
+	//[self.view addSubview:label];
 	[super viewDidLoad];
 	
 }

@@ -1,0 +1,3 @@
+In file included from /Users/alenaguseva/Documents/project/Classes/projectViewController.h:10,
+                 from /Users/alenaguseva/Documents/project/Classes/loadAction.m:10:
+/Users/alenaguseva/Documents/project/Classes/CalendarView.h:17: warning: property 'delegate' 'retain' attribute does not match super class 'CKCalendarView' property

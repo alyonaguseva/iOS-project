@@ -7,17 +7,28 @@
 //
 
 #import "TableView.h"
+#import "loadAction.h"
+#import <AddressBook/AddressBook.h>
 @implementation TableView
 #pragma mark -
 #pragma mark View lifecycle
-- (void)viewDidLoad {
+- (void)viewDidLoad 
+{
     [super viewDidLoad];
 	items=[[NSMutableArray alloc]init];
-	[items addObject:@" 564"];
-	[items addObject:@"232"];	
+	/*self.view.frame=CGRectMake(0, 280, 300, 400);
+	ABAddressBookRef addressBook = ABAddressBookCreate();
+	NSArray *people = (NSArray *)ABAddressBookCopyArrayOfAllPeople(addressBook);
+	for(int i=0;i<[people count];i++)
+    {
+		//ABRecordRef person = (ABRecordRef)[people objectAtIndex:i];
+		[items addObject:[people objectAtIndex:i]];
+		NSLog(@"%s",[items objectAtIndex:i] );
+	}
+	/*[items addObject:@" 564"];
+	[items addObject:@"232"];	*/
     // Uncomment the fol1lowing line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
-}
+   }
 
 
 /*
@@ -74,27 +85,6 @@
     if (cell == nil) {
         cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
     }
-	addressbook=ABAddressBookCreate();
-	CFArrayRef allSources=ABAddressBookCopyArrayOfAllSources(addressbook);
-	for (CFIndex i = 0; i < CFArrayGetCount(allSources); i++)
-    {
-        ABRecordRef aSource = CFArrayGetValueAtIndex(allSources,i);
-        
-        // Fetch all groups included in the current source
-        CFArrayRef result = ABAddressBookCopyArrayOfAllGroupsInSource (addressbook, aSource);
-        
-        // The app displays a source if and only if it contains groups
-        if (CFArrayGetCount(result) > 0)  
-		{
-			// NSMutableArray *groups = [[NSMutableArray alloc] initWithArray:(NSArray *)result];
-            
-            // Fetch the source name
-            //NSString *sourceName = [self nameForSource:aSource];
-            //Create a MySource object that contains the source name and all its groups
-            //MySource *source = [[MySource alloc] initWithAllGroups:groups name:sourceName];
-		}
-		// Configure the cell.
-	}		
 	cell.textLabel.text=[items objectAtIndex:indexPath.row];
     return cell;
 }

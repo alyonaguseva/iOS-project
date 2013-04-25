@@ -1,0 +1,16 @@
+/Users/alenaguseva/Documents/project/Classes/TableView.m: In function '-[TableView viewDidLoad]':
+/Users/alenaguseva/Documents/project/Classes/TableView.m:18: error: 'items' undeclared (first use in this function)
+/Users/alenaguseva/Documents/project/Classes/TableView.m:18: error: (Each undeclared identifier is reported only once
+/Users/alenaguseva/Documents/project/Classes/TableView.m:18: error: for each function it appears in.)
+/Users/alenaguseva/Documents/project/Classes/TableView.m: In function '-[TableView tableView:numberOfRowsInSection:]':
+/Users/alenaguseva/Documents/project/Classes/TableView.m:75: error: 'items' undeclared (first use in this function)
+/Users/alenaguseva/Documents/project/Classes/TableView.m:76: warning: control reaches end of non-void function
+/Users/alenaguseva/Documents/project/Classes/TableView.m: In function '-[TableView tableView:cellForRowAtIndexPath:]':
+/Users/alenaguseva/Documents/project/Classes/TableView.m:88: error: 'items' undeclared (first use in this function)
+/Users/alenaguseva/Documents/project/Classes/TableView.m: At top level:
+/Users/alenaguseva/Documents/project/Classes/TableView.m:169: warning: property 'items' requires method '-items' to be defined - use @synthesize, @dynamic or provide a method implementation
+/Users/alenaguseva/Documents/project/Classes/TableView.m:169: warning: property 'items' requires the method 'setItems:' to be defined - use @synthesize, @dynamic or provide a method implementation
+/Users/alenaguseva/Documents/project/Classes/TableView.m:169: warning: property 'actions' requires method '-actions' to be defined - use @synthesize, @dynamic or provide a method implementation
+/Users/alenaguseva/Documents/project/Classes/TableView.m:169: warning: property 'actions' requires the method 'setActions:' to be defined - use @synthesize, @dynamic or provide a method implementation
+/Users/alenaguseva/Documents/project/Classes/TableView.m:169: warning: property 'eventsList' requires method '-eventsList' to be defined - use @synthesize, @dynamic or provide a method implementation
+/Users/alenaguseva/Documents/project/Classes/TableView.m:169: warning: property 'eventsList' requires the method 'setEventsList:' to be defined - use @synthesize, @dynamic or provide a method implementation
