@@ -13,18 +13,28 @@
 
 @synthesize actions=_actions;
 @synthesize eventsList=_eventlist;
--(NSArray *) loadActionByDate:(NSDate *)data calendar:(CalendarView *)calendar
+- (void) loadActionByDate:(NSDate *)data
 {
 	
 	self.actions = [[EKEventStore alloc] init];
-	self.eventsList = [[NSMutableArray alloc] initWithArray:0];
+	if (data==nil) data=[[NSDate alloc] init];
+	self.currentDate=data;
 	NSPredicate *predicate;
 	NSDate *startDate = data;
 	NSDate *endDate = [[NSDate alloc]initWithTimeInterval:86400 sinceDate:data];
-	NSArray *calendarArray;// = [NSArray arrayWithObject:defaultCalendar];
 	predicate=[self.actions predicateForEventsWithStartDate:startDate endDate:endDate calendars:nil];
-	NSArray *events = [self.actions eventsMatchingPredicate:predicate];
-	return events;
+	NSArray *tmp=[self.actions eventsMatchingPredicate:predicate];
+	self.eventsList = [self.actions eventsMatchingPredicate:predicate];
+
+}
+-(void)setCurrentDate:(NSDate *) d
+{
+	currentDate=d;
+}
+-(NSArray *) loadTable
+{
+	[self loadActionByDate:currentDate];
+	return eventsList;
 }
 
 

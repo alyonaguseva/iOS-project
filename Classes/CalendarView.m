@@ -15,11 +15,11 @@
 - (void)dateButtonPressed:(id)sender {
 	DateButton *dateButton = sender;
     NSDate *date = dateButton.date;
-    SEL selector = @selector(loadActionByDate:calendar:);
+    SEL selector = @selector(loadActionByDate:);
 	
 	if (self.delegate&&[self.delegate respondsToSelector:selector])
 	{
-		[self.delegate performSelector:selector withObject:date withObject:self] ;
+		[self.delegate performSelector:selector withObject:date] ;
 	}
 	[super dateButtonPressed:sender];
 }

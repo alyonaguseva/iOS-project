@@ -19,6 +19,10 @@
 		C80957371716CAB30049A38A /* left_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C80957331716CAB30049A38A /* left_arrow@2x.png */; };
 		C80957381716CAB30049A38A /* right_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = C80957341716CAB30049A38A /* right_arrow.png */; };
 		C80957391716CAB30049A38A /* right_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C80957351716CAB30049A38A /* right_arrow@2x.png */; };
+		C830DA811743E3BB005EA503 /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C830DA801743E3BB005EA503 /* SecondView.xib */; };
+		C830DA861743E487005EA503 /* AdressTable.m in Sources */ = {isa = PBXBuildFile; fileRef = C830DA851743E487005EA503 /* AdressTable.m */; };
+		C830DA921743E6DD005EA503 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C830DA911743E6DD005EA503 /* SecondViewController.m */; };
+		C830E009174E4A11005EA503 /* AdressTable.xib in Resources */ = {isa = PBXBuildFile; fileRef = C830E008174E4A11005EA503 /* AdressTable.xib */; };
 		C88877F0170D943B005740C1 /* CalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = C88877EF170D943B005740C1 /* CalendarView.m */; };
 		C88877F3170D944B005740C1 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C88877F2170D944B005740C1 /* AddressBook.framework */; };
 		C88877F5170D9455005740C1 /* CKCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = C88877F4170D9455005740C1 /* CKCalendarView.m */; };
@@ -47,6 +51,12 @@
 		C80957331716CAB30049A38A /* left_arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "left_arrow@2x.png"; path = "Classes/resources/left_arrow@2x.png"; sourceTree = "<group>"; };
 		C80957341716CAB30049A38A /* right_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = right_arrow.png; path = Classes/resources/right_arrow.png; sourceTree = "<group>"; };
 		C80957351716CAB30049A38A /* right_arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "right_arrow@2x.png"; path = "Classes/resources/right_arrow@2x.png"; sourceTree = "<group>"; };
+		C830DA801743E3BB005EA503 /* SecondView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondView.xib; sourceTree = "<group>"; };
+		C830DA841743E487005EA503 /* AdressTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdressTable.h; sourceTree = "<group>"; };
+		C830DA851743E487005EA503 /* AdressTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdressTable.m; sourceTree = "<group>"; };
+		C830DA901743E6DC005EA503 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		C830DA911743E6DD005EA503 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		C830E008174E4A11005EA503 /* AdressTable.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdressTable.xib; sourceTree = "<group>"; };
 		C88877EE170D942F005740C1 /* CalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarView.h; sourceTree = "<group>"; };
 		C88877EF170D943B005740C1 /* CalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarView.m; sourceTree = "<group>"; };
 		C88877F1170D9444005740C1 /* CKCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKCalendarView.h; sourceTree = "<group>"; };
@@ -84,6 +94,8 @@
 			children = (
 				C88877F7170D9464005740C1 /* TableView.m */,
 				C88877F6170D945B005740C1 /* TableView.h */,
+				C830DA841743E487005EA503 /* AdressTable.h */,
+				C830DA851743E487005EA503 /* AdressTable.m */,
 				C88877F4170D9455005740C1 /* CKCalendarView.m */,
 				C88877F1170D9444005740C1 /* CKCalendarView.h */,
 				1D3623240D0F684500981E51 /* projectAppDelegate.h */,
@@ -96,6 +108,8 @@
 				C88877EF170D943B005740C1 /* CalendarView.m */,
 				C890FEA2172010B2005B16A8 /* DateButton.h */,
 				C890FEA3172010B2005B16A8 /* DateButton.m */,
+				C830DA901743E6DC005EA503 /* SecondViewController.h */,
+				C830DA911743E6DD005EA503 /* SecondViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -139,6 +153,8 @@
 				2899E5210DE3E06400AC0155 /* projectViewController.xib */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* project-Info.plist */,
+				C830DA801743E3BB005EA503 /* SecondView.xib */,
+				C830E008174E4A11005EA503 /* AdressTable.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -204,6 +220,8 @@
 				C80957371716CAB30049A38A /* left_arrow@2x.png in Resources */,
 				C80957381716CAB30049A38A /* right_arrow.png in Resources */,
 				C80957391716CAB30049A38A /* right_arrow@2x.png in Resources */,
+				C830DA811743E3BB005EA503 /* SecondView.xib in Resources */,
+				C830E009174E4A11005EA503 /* AdressTable.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +240,8 @@
 				C88877F8170D9464005740C1 /* TableView.m in Sources */,
 				C888793C170DA7E2005740C1 /* loadAction.m in Sources */,
 				C890FEA4172010B2005B16A8 /* DateButton.m in Sources */,
+				C830DA861743E487005EA503 /* AdressTable.m in Sources */,
+				C830DA921743E6DD005EA503 /* SecondViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

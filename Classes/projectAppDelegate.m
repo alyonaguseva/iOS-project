@@ -7,14 +7,14 @@
 //
 
 #import "projectAppDelegate.h"
+#import "loadAction.h"
 #import "projectViewController.h"
-
 @implementation projectAppDelegate
 
 @synthesize window;
 @synthesize viewController;
-
-
+@synthesize secondView;
+@synthesize adress;
 #pragma mark -
 #pragma mark Application lifecycle
 
@@ -23,11 +23,17 @@
     // Override point for customization after application launch.
 
     // Add the view controller's view to the window and display.
-    [window addSubview:viewController.view];
+	UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:viewController];
+    [window setRootViewController:navigationController];   
+	UIBarButtonItem *itemAdd=[[UIBarButtonItem alloc]initWithTitle:@"+Add" style:UIBarButtonItemStylePlain target:viewController action:@selector(pushSecondView:)];
+	viewController.navigationItem.rightBarButtonItem=itemAdd; 
+	[window addSubview:viewController.view];
 	[window makeKeyAndVisible];
 
     return YES;
 }
+
+
 
 
 - (void)applicationWillResignActive:(UIApplication *)application {
@@ -79,6 +85,7 @@
 
 
 - (void)dealloc {
+	//[navigController release];
     [viewController release];
     [window release];
     [super dealloc];

@@ -1,3 +1,8 @@
-In file included from /Users/alenaguseva/Documents/project/Classes/projectViewController.h:10,
+In file included from /Users/alenaguseva/Documents/project/Classes/projectViewController.h:12,
                  from /Users/alenaguseva/Documents/project/Classes/loadAction.m:10:
 /Users/alenaguseva/Documents/project/Classes/CalendarView.h:17: warning: property 'delegate' 'retain' attribute does not match super class 'CKCalendarView' property
+/Users/alenaguseva/Documents/project/Classes/loadAction.m: In function '-[loadAction loadActionByDate:]':
+/Users/alenaguseva/Documents/project/Classes/loadAction.m:27: warning: incompatible Objective-C types 'struct NSArray *', expected 'struct NSMutableArray *' when passing argument 1 of 'setEventsList:' from distinct Objective-C type
+/Users/alenaguseva/Documents/project/Classes/loadAction.m:26: warning: unused variable 'tmp'
+/Users/alenaguseva/Documents/project/Classes/loadAction.m: At top level:
+/Users/alenaguseva/Documents/project/Classes/loadAction.m:41: warning: property 'currentDate' requires method '-currentDate' to be defined - use @synthesize, @dynamic or provide a method implementation

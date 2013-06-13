@@ -1,0 +1,7 @@
+/Users/alenaguseva/Documents/project/Classes/NavigationController.m:45: warning: cannot find interface declaration for 'NavigationController'
+/Users/alenaguseva/Documents/project/Classes/NavigationController.m: In function '-[NavigationController didReceiveMemoryWarning]':
+/Users/alenaguseva/Documents/project/Classes/NavigationController.m:47: error: no super class declared in @interface for 'NavigationController'
+/Users/alenaguseva/Documents/project/Classes/NavigationController.m: In function '-[NavigationController viewDidUnload]':
+/Users/alenaguseva/Documents/project/Classes/NavigationController.m:53: error: no super class declared in @interface for 'NavigationController'
+/Users/alenaguseva/Documents/project/Classes/NavigationController.m: In function '-[NavigationController dealloc]':
+/Users/alenaguseva/Documents/project/Classes/NavigationController.m:60: error: no super class declared in @interface for 'NavigationController'

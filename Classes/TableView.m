@@ -7,24 +7,20 @@
 //
 
 #import "TableView.h"
+#import "SecondViewController.h"
 #import "loadAction.h"
 #import <AddressBook/AddressBook.h>
+#import "EventKit/EventKit.h"
 @implementation TableView
 #pragma mark -
 #pragma mark View lifecycle
+
 - (void)viewDidLoad 
 {
     [super viewDidLoad];
-	items=[[NSMutableArray alloc]init];
-	/*self.view.frame=CGRectMake(0, 280, 300, 400);
-	ABAddressBookRef addressBook = ABAddressBookCreate();
-	NSArray *people = (NSArray *)ABAddressBookCopyArrayOfAllPeople(addressBook);
-	for(int i=0;i<[people count];i++)
-    {
-		//ABRecordRef person = (ABRecordRef)[people objectAtIndex:i];
-		[items addObject:[people objectAtIndex:i]];
-		NSLog(@"%s",[items objectAtIndex:i] );
-	}
+	items=[[NSArray alloc]init];
+	loadAction *la=[[loadAction alloc]init];
+	items=[la loadTable];
 	/*[items addObject:@" 564"];
 	[items addObject:@"232"];	*/
     // Uncomment the fol1lowing line to display an Edit button in the navigation bar for this view controller.
@@ -85,7 +81,10 @@
     if (cell == nil) {
         cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
     }
-	cell.textLabel.text=[items objectAtIndex:indexPath.row];
+	EKEvent * event=[items objectAtIndex:indexPath.row];
+	//[cell.textLabel setText:[items objectAtIndex:indexPath.row].title];
+	NSString *tex=event.title;
+	[cell.textLabel setText:event.title];
     return cell;
 }
 
@@ -134,7 +133,10 @@
 #pragma mark Table view delegate
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    
+    SecondViewController *secondView=[[ SecondViewController alloc]initWithNibName:@"SecondView" bundle:nil];
+	self.title=@"Change";
+	[self.navigationController pushViewController:secondView animated:YES];
+	[secondView release];
 	/*
 	 <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
      // ...
@@ -142,6 +144,7 @@
 	 [self.navigationController pushViewController:detailViewController animated:YES];
 	 [detailViewController release];
 	 */
+
 }
 
 
