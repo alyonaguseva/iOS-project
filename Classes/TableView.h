@@ -12,7 +12,7 @@
 @interface TableView: UITableViewController {
 	NSMutableArray *items;
 	
+	
 }
-@property (nonatomic,retain) NSArray *items;
 
 @end

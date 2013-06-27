@@ -9,20 +9,16 @@
 #import <UIKit/UIKit.h>
 
 @class projectViewController;
-@class SecondViewController;
-@class AdressTable;
+
 @interface projectAppDelegate : NSObject <UIApplicationDelegate> {
     UIWindow *window;
     projectViewController *viewController;
-	SecondViewController *secondView;
-	AdressTable *adress;
+//@public NSInteger newFrame;
+
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 @property (nonatomic, retain) IBOutlet projectViewController *viewController;
-@property (nonatomic, retain) IBOutlet SecondViewController *secondView;
-@property (nonatomic, retain) IBOutlet AdressTable *adress;
-
 
 @end
 

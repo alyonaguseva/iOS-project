@@ -19,6 +19,7 @@
 
 @interface CKCalendarView : UIView
 
+
 enum {
     startSunday = 1,
     startMonday = 2,
@@ -33,6 +34,7 @@ typedef int startDay;
 @property (nonatomic) BOOL shouldFillCalendar;
 @property (nonatomic) BOOL adaptHeightToNumberOfWeeksInMonth;
 @property (nonatomic,retain) id<CKCalendarDelegate> delegate;
+@property(nonatomic) CGRect newFrame;
 
 - (id)initWithStartDay:(startDay)firstDay;
 - (id)initWithStartDay:(startDay)firstDay frame:(CGRect)frame;

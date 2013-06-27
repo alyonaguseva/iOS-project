@@ -7,20 +7,34 @@
 //
 
 #import "TableView.h"
-#import "SecondViewController.h"
 #import "loadAction.h"
+#import "CKCalendarView.h"
 #import <AddressBook/AddressBook.h>
-#import "EventKit/EventKit.h"
+#import "projectAppDelegate.h"
+
+
 @implementation TableView
+
+
 #pragma mark -
 #pragma mark View lifecycle
-
 - (void)viewDidLoad 
 {
     [super viewDidLoad];
-	items=[[NSArray alloc]init];
-	loadAction *la=[[loadAction alloc]init];
-	items=[la loadTable];
+//	NSInteger f=(NSInteger)(projectAppDelegate)[[UIApplication sharedApplication]delegate].newFrame;
+	items=[[NSMutableArray alloc]init];
+	NSInteger s=self.view.bounds.size.height;
+//	NSInteger g=viewController.view.frame.size.height;
+	self.tableView.frame=CGRectMake(0, self.view.frame.size.height ,320,self.view.bounds.size.height);
+	/*self.view.frame=CGRectMake(0, 280, 300, 400);5325
+	ABAddressBookRef addressBook = ABAddressBookCreate();
+	NSArray *people = (NSArray *)ABAddressBookCopyArrayOfAllPeople(addressBook);
+	for(int i=0;i<[people count];i++)
+    {
+		//ABRecordRef person = (ABRecordRef)[people objectAtIndex:i];
+		[items addObject:[people objectAtIndex:i]];
+		NSLog(@"%s",[items objectAtIndex:i] );
+	}
 	/*[items addObject:@" 564"];
 	[items addObject:@"232"];	*/
     // Uncomment the fol1lowing line to display an Edit button in the navigation bar for this view controller.
@@ -32,11 +46,12 @@
  [super viewWillAppear:animated];
  }
  */
-/*
+
  - (void)viewDidAppear:(BOOL)animated {
- [super viewDidAppear:animated];
+	 self.tableView.frame=CGRectMake(0, self.view.frame.size.height ,320,self.view.bounds.size.height);
+ //[super viewDidAppear:animated];
  }
- */
+ 
 /*
  - (void)viewWillDisappear:(BOOL)animated {
  [super viewWillDisappear:animated];
@@ -81,10 +96,7 @@
     if (cell == nil) {
         cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
     }
-	EKEvent * event=[items objectAtIndex:indexPath.row];
-	//[cell.textLabel setText:[items objectAtIndex:indexPath.row].title];
-	NSString *tex=event.title;
-	[cell.textLabel setText:event.title];
+	cell.textLabel.text=[items objectAtIndex:indexPath.row];
     return cell;
 }
 
@@ -133,18 +145,14 @@
 #pragma mark Table view delegate
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    SecondViewController *secondView=[[ SecondViewController alloc]initWithNibName:@"SecondView" bundle:nil];
-	self.title=@"Change";
-	[self.navigationController pushViewController:secondView animated:YES];
-	[secondView release];
+    
 	/*
-	 <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
+	 DetailViewController *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
      // ...
      // Pass the selected object to the new view controller.
 	 [self.navigationController pushViewController:detailViewController animated:YES];
 	 [detailViewController release];
 	 */
-
 }
 
 

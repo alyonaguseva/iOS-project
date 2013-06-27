@@ -15,13 +15,16 @@
 - (void)dateButtonPressed:(id)sender {
 	DateButton *dateButton = sender;
     NSDate *date = dateButton.date;
-    SEL selector = @selector(loadActionByDate:);
-	
+	CGRect invalidRect;
+    SEL selector = @selector(loadActionByDate:calendar:);
+	[self layoutSubviews];
+	[self setNeedsDisplayInRect: (CGRect)invalidRect];
+
 	if (self.delegate&&[self.delegate respondsToSelector:selector])
 	{
-		[self.delegate performSelector:selector withObject:date] ;
+		[self.delegate performSelector:selector withObject:date withObject:self] ;
 	}
-	[super dateButtonPressed:sender];
+	[super dateButtonPress:sender];
 }
 
 	@end
