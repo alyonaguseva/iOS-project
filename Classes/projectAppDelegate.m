@@ -7,14 +7,15 @@
 //
 
 #import "projectAppDelegate.h"
+#import "loadAction.h"
 #import "projectViewController.h"
-
 @implementation projectAppDelegate
 
 @synthesize window;
 @synthesize viewController;
-
-
+@synthesize secondView;
+@synthesize adress; 
+@synthesize navigation;
 #pragma mark -
 #pragma mark Application lifecycle
 
@@ -23,11 +24,17 @@
     // Override point for customization after application launch.
 
     // Add the view controller's view to the window and display.
-    [window addSubview:viewController.view];
+	UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:viewController];
+    [window setRootViewController:navigationController];  
+	self.navigation=navigationController;
+	//self.navigation.navigationBar.hidden=YES;
+	[window addSubview:viewController.view];
 	[window makeKeyAndVisible];
 
     return YES;
 }
+
+
 
 
 - (void)applicationWillResignActive:(UIApplication *)application {
@@ -79,6 +86,7 @@
 
 
 - (void)dealloc {
+	//[navigController release];
     [viewController release];
     [window release];
     [super dealloc];

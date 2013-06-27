@@ -10,9 +10,15 @@
 #import <EventKit/EventKit.h>
 
 @interface loadAction : NSObject 
+{
+	EKEventStore *actions;
+	NSDate *currentDate;
+	NSArray *eventsList;
+}
 
 @property (nonatomic,retain)EKEventStore *actions;
-@property (nonatomic,retain)NSMutableArray *eventsList;
--(NSArray *) loadActionByDate:(NSDate *)data calendar:calendar;
+@property (nonatomic,retain) NSDate *currentDate;
+@property (nonatomic,retain) NSArray *eventsList;
+
 
 @end

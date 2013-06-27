@@ -1,9 +1,9 @@
-In file included from /Users/alenaguseva/Documents/project/Classes/projectViewController.h:12,
-                 from /Users/alenaguseva/Documents/project/Classes/projectViewController.m:11:
+In file included from /Users/alenaguseva/Documents/project/Classes/projectViewController.h:13,
+                 from /Users/alenaguseva/Documents/project/Classes/projectViewController.m:12:
 /Users/alenaguseva/Documents/project/Classes/CalendarView.h:17: warning: property 'delegate' 'retain' attribute does not match super class 'CKCalendarView' property
 /Users/alenaguseva/Documents/project/Classes/projectViewController.m: In function '-[projectViewController viewDidLoad]':
-/Users/alenaguseva/Documents/project/Classes/projectViewController.m:63: warning: 'loadAction' may not respond to '-loadActionByDate:'
-/Users/alenaguseva/Documents/project/Classes/projectViewController.m:63: warning: (Messages without a matching method signature
-/Users/alenaguseva/Documents/project/Classes/projectViewController.m:63: warning: will be assumed to return 'id' and accept
-/Users/alenaguseva/Documents/project/Classes/projectViewController.m:63: warning: '...' as arguments.)
-/Users/alenaguseva/Documents/project/Classes/projectViewController.m:57: warning: unused variable 'label'
+/Users/alenaguseva/Documents/project/Classes/projectViewController.m:82: warning: 'loadAction' may not respond to '-loadActionByDate:'
+/Users/alenaguseva/Documents/project/Classes/projectViewController.m:82: warning: (Messages without a matching method signature
+/Users/alenaguseva/Documents/project/Classes/projectViewController.m:82: warning: will be assumed to return 'id' and accept
+/Users/alenaguseva/Documents/project/Classes/projectViewController.m:82: warning: '...' as arguments.)
+/Users/alenaguseva/Documents/project/Classes/projectViewController.m:70: warning: unused variable 'label'

@@ -9,11 +9,16 @@
 #import <Foundation/Foundation.h>
 
 @interface SecondViewController : UIViewController {
-    IBOutlet UITextField *text;
+    IBOutlet UITextField *textField;
     IBOutlet UIDatePicker *dateC;
-	NSInteger *person;
+	NSString *person;
 }
-@property(nonatomic) NSInteger *person;
+@property(nonatomic,retain) NSString *person;
+@property(nonatomic,retain) IBOutlet UITextField *textField;
+@property(nonatomic,retain) IBOutlet UIDatePicker *dateC;
+@property (nonatomic,retain) IBOutlet UIButton *contactButton;
+@property (nonatomic,retain) NSDate *currentD;
+@property (nonatomic,retain) NSString *text;
 
 - (IBAction)pushSave:(id)sender;
 - (IBAction)pushThirdView:(id)sender;

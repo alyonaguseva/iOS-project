@@ -7,11 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
 
-@interface AdressTable : UITableViewController 
-@property(nonatomic,retain)	NSMutableArray *items;
-
-
-
+@interface AdressTable : UITableViewController
+@property(nonatomic,retain)	NSArray *items;
 @end

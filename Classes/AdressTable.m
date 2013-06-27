@@ -2,27 +2,32 @@
 //  AdressTable.m
 //  project
 //
+//  Created by –Р–ї–µ–љ–∞ –У—Г—Б–µ–≤–∞ on 6/25/13.
 //  Created by Алена Гусева on 5/15/13.
 //  Copyright 2013 __MyCompanyName__. All rights reserved.
 //
 
 #import "AdressTable.h"
 #import <AddressBook/AddressBook.h>
-
+#import <AddressBook/ABPerson.h>
+#import "SecondViewController.h"
+#import "projectAppDelegate.h"
+@implementation UITableView
 @implementation AdressTable
-@synthesize items=_items;
+@synthesize items;
+
 
 #pragma mark -
 #pragma mark Initialization
 
-/*
+
 - (id)initWithStyle:(UITableViewStyle)style {
     // Override initWithStyle: if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
     if ((self = [super initWithStyle:style])) {
     }
     return self;
 }
-*/
+
 
 
 #pragma mark -
@@ -32,30 +37,22 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 	self.view.frame=CGRectMake(0, 280, 300, 400);
-	ABAddressBookRef addressBook = ABAddressBookCreate();
-	NSArray *people = (NSArray *)ABAddressBookCopyArrayOfAllPeople(addressBook);
-	for(int i=0;i<[people count];i++)
-	{
-	 //ABRecordRef person = (ABRecordRef)[people objectAtIndex:i];
-	[self.items addObject:[people objectAtIndex:i]];
-	NSLog(@"%s",[self.items objectAtIndex:i] );
+	ABAddressBookRef *addressBook = ABAddressBookCreate();
+	NSArray *people = ABAddressBookCopyArrayOfAllPeople(addressBook);
+	self.items=people;
 	}
-	 
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
-}
 
 
-/*
+
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
 }
-*/
-/*
+
+
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
 }
-*/
+
 /*
 - (void)viewWillDisappear:(BOOL)animated {
     [super viewWillDisappear:animated];
@@ -66,53 +63,52 @@
     [super viewDidDisappear:animated];
 }
 */
-/*
+
 // Override to allow orientations other than the default portrait orientation.
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
     // Return YES for supported orientations
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
-*/
 
 
 #pragma mark -
 #pragma mark Table view data source
 
-/*- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     // Return the number of sections.
-    return <#number of sections#>;
+    return 1;
 }
 
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     // Return the number of rows in the section.
-    return <#number of rows in section#>;
+    return [self.items count];
 }
 
 
 // Customize the appearance of table view cells.
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
-    static NSString *CellIdentifier = @"Cell";
+	static NSString *CellIdentifier = @"Cell";
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
         cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
     }
-    
-    // Configure the cell...
-    
+	;
+	NSString *str=ABRecordCopyCompositeName((ABRecordRef *)[self.items objectAtIndex:indexPath.row]);
+	[cell.textLabel setText:str];
     return cell;
 }
 
 
-/*
+
 // Override to support conditional editing of the table view.
 - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
     // Return NO if you do not want the specified item to be editable.
-    return YES;
+    return NO;
 }
-*/
+
 
 
 /*
@@ -130,34 +126,33 @@
 */
 
 
-/*
+
 // Override to support rearranging the table view.
 - (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath {
 }
-*/
 
 
-/*
+
+
 // Override to support conditional rearranging of the table view.
 - (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath {
     // Return NO if you do not want the item to be re-orderable.
     return YES;
 }
-*/
+
 
 
 #pragma mark -
 #pragma mark Table view delegate
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Navigation logic may go here. Create and push another view controller.
-	/*
-	 <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
-     // ...
-     // Pass the selected object to the new view controller.
-	 [self.navigationController pushViewController:detailViewController animated:YES];
-	 [detailViewController release];
-	 */
+	SecondViewController *secondView=[[ SecondViewController alloc]initWithNibName:@"SecondView" bundle:nil];
+	self.title=@"Change";
+	secondView.person=(NSString *)(ABRecordCopyCompositeName((ABRecordRef *)[items objectAtIndex:indexPath.row]));
+	[((projectAppDelegate *)[UIApplication sharedApplication].delegate).navigation pushViewController:secondView animated:YES];
+	[secondView release];
+	
+    
 }
 
 

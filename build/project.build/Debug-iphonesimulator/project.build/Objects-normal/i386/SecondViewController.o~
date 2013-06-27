@@ -1,0 +1,9 @@
+In file included from /Users/alenaguseva/Documents/project/Classes/SecondViewController.m:10:
+/Users/alenaguseva/Documents/project/Classes/SecondViewController.h:16: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed
+/Users/alenaguseva/Documents/project/Classes/SecondViewController.h:16: warning: assign attribute (default) not appropriate for non-gc object property 'person'
+In file included from /Users/alenaguseva/Documents/project/Classes/projectViewController.h:13,
+                 from /Users/alenaguseva/Documents/project/Classes/SecondViewController.m:11:
+/Users/alenaguseva/Documents/project/Classes/CalendarView.h:17: warning: property 'delegate' 'retain' attribute does not match super class 'CKCalendarView' property
+/Users/alenaguseva/Documents/project/Classes/SecondViewController.m: In function '-[SecondViewController viewWillAppear:]':
+/Users/alenaguseva/Documents/project/Classes/SecondViewController.m:64: warning: passing argument 2 of 'setTitle:forState:' makes integer from pointer without a cast
+/Users/alenaguseva/Documents/project/Classes/SecondViewController.m:67: warning: passing argument 2 of 'setTitle:forState:' makes integer from pointer without a cast

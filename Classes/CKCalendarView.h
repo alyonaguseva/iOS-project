@@ -19,7 +19,6 @@
 
 @interface CKCalendarView : UIView
 
-
 enum {
     startSunday = 1,
     startMonday = 2,
@@ -34,7 +33,6 @@ typedef int startDay;
 @property (nonatomic) BOOL shouldFillCalendar;
 @property (nonatomic) BOOL adaptHeightToNumberOfWeeksInMonth;
 @property (nonatomic,retain) id<CKCalendarDelegate> delegate;
-@property(nonatomic) CGRect newFrame;
 
 - (id)initWithStartDay:(startDay)firstDay;
 - (id)initWithStartDay:(startDay)firstDay frame:(CGRect)frame;
@@ -49,7 +47,7 @@ typedef int startDay;
 - (void)setButtonColor:(UIColor *)color;
 
 - (void)setInnerBorderColor:(UIColor *)color;
-
+-(BOOL)isSameDayAsDate:(NSDate *)date;
 - (void)setDayOfWeekFont:(UIFont *)font;
 - (UIFont *)dayOfWeekFont;
 
